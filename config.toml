@@ -1,0 +1,66 @@
+[[targets]]
+name = "Device-192-168-1-101"
+ip = "192.168.1.101"
+mac = "20:BB:BC:EF:1B:2F"
+enabled = true
+
+[[targets]]
+name = "Device-192-168-1-103"
+ip = "192.168.1.103"
+mac = "92:E1:3A:F7:23:FF"
+enabled = true
+
+[[targets]]
+name = "Device-192-168-1-107"
+ip = "192.168.1.107"
+mac = "18:CC:18:F7:AB:D4"
+enabled = true
+
+[[targets]]
+name = "Device-192-168-1-110"
+ip = "192.168.1.110"
+mac = "62:DE:BE:E1:7E:89"
+enabled = true
+
+[[targets]]
+name = "Device-192-168-1-112"
+ip = "192.168.1.112"
+mac = "A0:19:01:64:02:98"
+enabled = true
+
+[[targets]]
+name = "Device-192-168-1-116"
+ip = "192.168.1.116"
+mac = "92:EA:48:22:C7:16"
+enabled = true
+
+[[targets]]
+name = "Device-192-168-1-118"
+ip = "192.168.1.118"
+mac = "AC:50:DE:4C:CA:BE"
+enabled = true
+
+[[targets]]
+name = "Device-192-168-1-251"
+ip = "192.168.1.251"
+mac = "A0:D3:7A:00:87:4B"
+enabled = true
+
+[[targets]]
+name = "Device-192-168-1-253"
+ip = "192.168.1.253"
+mac = "00:20:6B:07:4B:DA"
+enabled = true
+
+[gateway]
+ip = "192.168.1.1"
+mac = "auto"
+
+[settings]
+interface = "WLAN"
+interval = 1
+duration = 0
+auto_recovery = true
+verbose = false
+auto_update = true
+update_interval = 300
